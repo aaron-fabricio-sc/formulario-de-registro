@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background: url("punto-de-venta-electronico.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 100;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  max-width: 800px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+h1 {
+  text-align: center;
+
+  color: white;
+  padding-bottom: 12px;
+  font-size: 27px;
+}
+label {
+  margin: 8px auto;
+  display: block;
+  width: 80%;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+input {
+  padding: 15px;
+  margin: auto;
+
+  display: block;
+  width: 80%;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: #48e;
+  color: #fff;
+  width: 45%;
+  margin-top: 22px;
+  border: none;
+  font-size: 21px;
+}
+textarea {
+  display: block;
+  width: 80%;
+  padding: 9px;
+  margin: auto;
+  margin-top: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.ok {
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background-color: #1e6;
+  color: #fff;
+}
+.bad {
+  margin: auto;
+  font-size: 18px;
+
+  text-align: center;
+  width: 100%;
+
+  padding: 12px;
+  background-color: #a22;
+  color: #fff;
+}
